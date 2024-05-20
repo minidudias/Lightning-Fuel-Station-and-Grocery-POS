@@ -52,7 +52,7 @@
                       <Component id="roundPanel2" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="body" pref="948" max="32767" attributes="0"/>
+                  <Component id="body" pref="942" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -68,7 +68,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="user" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="menu2" pref="363" max="32767" attributes="0"/>
+                          <Component id="menu2" pref="350" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>

@@ -8,6 +8,7 @@ package com.component;
  *
  * @author sanar
  */
+
 public class User extends javax.swing.JPanel {
 
     public User() {
