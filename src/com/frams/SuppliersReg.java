@@ -54,8 +54,8 @@ public class SuppliersReg extends javax.swing.JPanel {
             ResultSet resultSet = MySql.execute("SELECT * FROM `suppliers` WHERE `su_id` = '" + supplierId + "'");
             resultSet.next();
             clean();
-            jTextField1.setText(resultSet.getString("im_name"));
-            jTextField3.setText(resultSet.getString("contact"));
+            jTextField1.setText(resultSet.getString("su_name"));
+            jTextField3.setText(resultSet.getString("su_contact"));
             jButton2.setVisible(false);
             jButton3.setVisible(true);
 
@@ -287,7 +287,7 @@ public class SuppliersReg extends javax.swing.JPanel {
         } else {
             
             try {
-                MySql.execute("UPDATE `suppliers` SET `su_name` = '"+name+"',`su_contact` = '"+comContact+"' WHERE `im_id` = '"+supplierId+"'");
+                MySql.execute("UPDATE `suppliers` SET `su_name` = '"+name+"',`su_contact` = '"+comContact+"' WHERE `su_id` = '"+supplierId+"'");
                 clean();
                 loadImpoters();
             } catch (Exception e) {
