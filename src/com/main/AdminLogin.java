@@ -39,7 +39,7 @@ public class AdminLogin extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Bahnschrift", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Grocery Store Login");
+        jLabel5.setText("Admin Login");
         jLabel5.setToolTipText("");
 
         jTextField1.setBackground(new java.awt.Color(102, 102, 102));
